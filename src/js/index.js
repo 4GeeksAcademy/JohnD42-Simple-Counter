@@ -13,7 +13,6 @@ var seconds = 0;
 
 const secondsAddAndRender = () => {
     seconds += seconds !== 999999 ? 1: 0;
-    console.log(seconds)
     ReactDOM.render(<Home seconds={seconds}/>, document.querySelector("#app"))
 }
 setInterval(secondsAddAndRender,1000);

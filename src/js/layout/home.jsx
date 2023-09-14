@@ -4,7 +4,6 @@ import SecondsCounter from '../component/SecondsCounter'
 
 //create your first component
 const Home = (props) => {
-	console.log(props.seconds)
 	return (
 		<div className="container-fluid d-inline-block bg-gray h-100">
 			<SecondsCounter seconds={props.seconds}/>
