@@ -14,37 +14,37 @@ const SecondsCounter = (props) => {
     return (
         <div className = "row g-0 justify-content-center d-flex">
             <div className="col-6 justify-content-center d-flex">
-                <div className="col-2 rounded border-right border-left bg-dark text-white text-center m-2">
+                <div className="col-2 rounded border-right border-left bg-dark text-white text-center m-2 digit">
                     <h1 className="display-1">
                         <i className="fa-regular fa-clock"></i>
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {hundredThousandths}
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {tenThousandths}
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {thousandths}
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {hundredths}
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {tens}
                     </h1>
                 </div>
-                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center">
+                <div className="col-1 rounded border-right border-left bg-dark text-white m-2 text-center digit">
                     <h1 className="display-1">
                         {ones}
                     </h1>
